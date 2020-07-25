@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Travelville Pro</title>
+</head>
+
+<body class="scrollspy" id="home">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="teal nav-main">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Travelville <span
+                            class="badge prefix white right pro-badge pulse">Pro</span></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#search">Search</a></li>
+                        <li><a href="#popular">Popular Places</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </div>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#popular">Popular Places</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+
+    <!-- Slider -->
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/resort1.jpg" alt="">
+                <div class="caption center-align">
+                    <h2>Take Your Dream Vacation</h2>
+                    <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+                        sed blanditiis atque earum
+                        accusantium rem.</p>
+                    <button class="btn btn-large waves-effect wave-light">Learn More</button>
+                </div>
+            </li>
+            <li>
+                <img src="img/resort2.jpg" alt="">
+                <div class="caption right-align">
+                    <h2>Fly Anywhere</h2>
+                    <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+                        sed blanditiis atque earum
+                        accusantium rem.</p>
+                    <button class="btn btn-large waves-effect wave-light">Learn More</button>
+                </div>
+            </li>
+            <li>
+                <img src="img/resort3.jpg" alt="">
+                <div class="caption left-align">
+                    <h2>Safe and Comfortable Journey</h2>
+                    <p class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+                        sed blanditiis atque earum
+                        accusantium rem.</p>
+                    <button class="btn btn-large waves-effect wave-light">Learn More</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Search Section -->
+    <section class="section search-section teal darken-1 white-text center scrollspy" id="search">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Search Your Destination</h3>
+                    <div class="input-field">
+                        <input type="text" placeholder="Aruba, Bahamas" class="white grey-text autocomplete"
+                            id="autocomplete-input" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icon box -->
+    <section class="section icon-box grey text-lighten-4 center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons teal large white-text">room</i>
+                        <h3>Pick Where</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos commodi animi suscipit,
+                            nesciunt quos nostrum.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons teal large white-text">store</i>
+                        <h3>Travel Store</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos commodi animi suscipit,
+                            nesciunt quos nostrum.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons teal large white-text">airplanemode_active</i>
+                        <h3>Fly Fast</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos commodi animi suscipit,
+                            nesciunt quos nostrum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Photo Slider: Popular Places -->
+    <section class="section center scrollspy" id="popular">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3> <span class="teal-text">Popular</span>Places</h3>
+                    <div class="carousel">
+                        <a class="carousel-item" href="#one!"><img src="img/resort1.jpg"></a>
+                        <a class="carousel-item" href="#two!"><img src="img/resort2.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="img/resort3.jpg"></a>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <a href="#!" class="btn center btn-large">
+                        <i class="material-icons left">send</i> Contact For Bookings
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parralax -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/resort1.jpg"></div>
+    </div>
+    <div class="section white">
+        <div class="row">
+            <!-- Social Media  -->
+            <section class="section social-section white center">
+                <h3>Follow Travelville</h3>
+                <p>Follow us on social media for special offers!</p>
+                <a href="https://facebook.com" target="_blank" class="teal-text">
+                    <i class="fab fa-facebook fa-4x"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="teal-text">
+                    <i class="fab fa-instagram fa-4x"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="teal-text">
+                    <i class="fab fa-twitter fa-4x"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="teal-text">
+                    <i class="fab fa-github fa-4x"></i>
+                </a>
+            </section>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/resort2.jpg"></div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section center scrollspy" id="gallery">
+        <div class="container">
+            <h3> <span class="teal-text">Photo</span>Gallery</h3>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?mountains"
+                        alt="" />
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?travell"
+                        alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?travelling"
+                        alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?airplane"
+                        alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?fishing"
+                        alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?bali" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?india" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?bangladesh"
+                        alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?highway"
+                        alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?airplane"
+                        alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?nature" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1920x1080?boat" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section scrollspy" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel teal white-text center">
+                        <i class="material-icons large">email</i>
+                        <h3>Contact Us For Bookings</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati eligendi adipisci
+                            doloribus delectus ipsam perferendis?</p>
+                    </div>
+                    <ul class="collection with-header">
+                        <li class="collection-header">
+                            <h4>Location</h4>
+                        </li>
+                        <li class="collection-item">Travelville Agency</li>
+                        <li class="collection-item">55 Beach rd, Suite 33</li>
+                        <li class="collection-item">Miami FL, 55555</li>
+                    </ul>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-3">
+                        <h4>Please fill out this form</h4>
+                        <div class="input-field">
+                            <input type="text" id="name">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="email">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="phone">
+                            <label for="phone">Phone</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea class="materialize-textarea" id="message"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <input type="submit" class="btn btn-large">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Button -->
+    <div class="fixed-action-btn ">
+        <a class="btn-floating btn-large teal">
+            <i class="material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating red">
+                    <i class="material-icons">insert_chart</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue">
+                    <i class="material-icons">format_quote</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating yellow">
+                    <i class="material-icons">publish</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">attach_file</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="section teal white-text center">
+        <p>Copyright &copy; 2020 Travelville</p>
+    </footer>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Jquery -->
+    <script>
+        $(document).ready(function () {
+
+            // SideNav
+            $('.sidenav').sidenav({
+                edge: 'right'
+            });
+
+            // Slides
+            $(".slider").slider({
+                indicators: false,
+                height: 500,
+                transition: 500,
+                interval: 6000,
+            });
+
+            // autocomplete
+            $('.autocomplete').autocomplete({
+                data: {
+                    Aruba: null,
+                    Dhaka: null,
+                    Chittagong: null,
+                    NewYork: null,
+                    Singapore: null,
+                    Bali: null,
+                    London: null,
+                    Paris: null,
+                }
+            });
+
+            $('.carousel').carousel();
+
+            $('.scrollspy').scrollSpy();
+
+            $('.fixed-action-btn').floatingActionButton();
+
+            $('.materialboxed').materialbox();
+
+            $('.parallax').parallax();
+
+        });
+    </script>
+</body>
+
+</html>
